@@ -1,0 +1,157 @@
+body{
+    background-color: var(--background-color);
+    color: black;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100vh;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+hr{
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    width: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 25px;
+}
+
+.profile-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.profile-numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card .profile-information .name,
+.card .profile-numbers .counter{
+    font-weight: 700;
+}
+
+.card .profile-information .name span,
+.card .profile-numbers .counter-type{
+    color: var(--text-color);
+}
+
+.profile-information img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+/* body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 330px;
+    height: 350px;
+    gap: 10px;
+}
+
+.profile-informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-numbers .info .counter,
+.card .profile-informations p{
+    font-weight: 700;
+}
+
+.card .profile-informations .age,
+.card .profile-informations .city, 
+.profile-numbers .info .counter-type{
+    color: var(--text-color);
+} */
+
+/* html{
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 280px;
+    height: 350px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: 15px;
+}
+
+.foto-perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.nome-idade span{
+    font-weight: 700;
+    align-items: center;
+} */
+
